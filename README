@@ -1,0 +1,24 @@
+== Welcome to Alternetica.com
+	the portal for cooperative company alternetica.com, 
+	what about this site ?
+	  front end
+	  - several features for contents and organization from categories
+	  - multilingual
+	  - Picture gallery
+	  - multi language
+	  - Social Network
+	  - separation of content by category
+		
+	  backend administration panel
+	  - manage users
+	  - manage contents & categories
+	  - manage gallery 
+          - manage blogs, posts  & comments
+	  - manage Todo-list's, Calendars & Tasks
+	
+== step for install
+
+		bundle install 
+		rake db:create
+		rake db:migration
+...

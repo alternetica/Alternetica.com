@@ -1,0 +1,18 @@
+<!--	ESTE ARCHIVO GENERALMENTE ESTA POR CADA GENERACION QUE HACEMOS CON EL RAILS G , PARA EL THEME , PERO LO HE 
+INCLUIDO EN UN UNICO LAYOUT PARA HACER RENDER. ENTONCES CADA NUEVO MODULO QUE SE HAGA SERIA RECOMENDABLE 
+LINKEARLO ACA DE LA FORMA QUE ESTAN HECHO ESTOS DOS.
+-->
+<div class="block notice">
+  <h3>ultimos eventos</h3>
+  <div class="content">
+    <p>aqui vamos a ver que inventamos......</p>
+<p><%= Time.now%></p>
+  </div>
+</div>
+<div class="block">
+  <h3>Links</h3>
+  <ul class="navigation">
+   <li><%= link_to "#{t("web-app-theme.show", :default => "Categorias")}", '/categories/'%></li>
+   <li><%= link_to "#{t("web-app-theme.show", :default => "Contenido")}", '/contents/' %></li>
+  </ul>
+</div>
